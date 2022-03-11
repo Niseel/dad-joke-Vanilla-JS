@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dad Joke - Vanilla JS</title>
+  <link rel="stylesheet" href="./assets/fonts/JUSTICE FEST.otf">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header__title">
+      The <br />
+      "Try Not To Laugh" <br />
+      Challenge
+    </header>
+
+    <section class="joke__content">
+      <div class="joke__show">
+        <p id="joke">Some Joke load here</p>
+
+        <div class="joke__error">
+          <p id="joke">‼ Some Error</p>
+        </div>
+        <div class="joke__button">
+          <button id="button" class="button" type="button">
+            <span id="loader" class="button__loader">
+              <div class="loading">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+              </div>
+            </span>
+            <span id="cta" class="button__cta">I'm ready</span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
