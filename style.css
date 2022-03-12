@@ -64,7 +64,7 @@ p#joke, p#error {
   border: 1px solid rgb(63, 65, 60);
   border-radius: 5px;
   height: 50px;
-  width: 200px;
+  width: 300px;
   background-color: var(--primary-color);
 
   position: absolute;

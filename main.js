@@ -15,6 +15,7 @@ const displayJoke = document.querySelector('.joke__show #joke')
 const displayError = document.querySelector('.joke__error #error')
 const loader = document.getElementById('loader')
 const cta = document.querySelector('.button__cta') 
+
 /* Get request */
 const API_ENDPOINT = 'https://icanhazdadjoke.com/'
 
