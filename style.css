@@ -55,9 +55,10 @@ body {
   position: relative;
 }
 
-p#joke {
+p#joke, p#error {
   padding: 0 32px;
 }
+
 
 .joke__button {
   border: 1px solid rgb(63, 65, 60);
@@ -175,3 +176,13 @@ p#joke {
     opacity: 0;
  }
 }
+
+
+
+#loader {
+  display: none;
+}
+
+.joke__error p {
+  display: none;
+} 
